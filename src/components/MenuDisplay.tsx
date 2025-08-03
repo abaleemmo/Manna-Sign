@@ -29,8 +29,8 @@ const MenuDisplay = () => {
       <button 
         onClick={togglePage}
         className="absolute top-4 right-4 z-20 w-20 md:w-28 lg:w-32 bg-transparent border-none p-0 cursor-pointer"
-        style={{ outline: 'none' }} // Remove focus outline for a cleaner look
-      >
+        style={{ outline: 'none' }
+      }>
         <img 
           src="/manna-grill-logo.png" 
           alt="Manna Mediterranean Grill Logo" 
